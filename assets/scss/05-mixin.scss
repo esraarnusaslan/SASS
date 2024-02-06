@@ -1,0 +1,29 @@
+@use "mixin" as mix;
+
+.menu{
+    
+    ul{
+        @include mix.flex-box(row,space-evenly,center,2rem);
+        @include mix.reset-list;
+        a{
+            @include mix.reset-list;
+            &:hover{
+                color: yellow;
+                cursor: pointer;
+                background-color: black;
+            }
+        }
+    }
+}
+
+.form{
+    @include mix.reset-list;
+    margin-top: 5rem;
+    input{
+        background-color: bisque;
+    }
+    button{
+        background-color: plum;
+    }
+    
+}

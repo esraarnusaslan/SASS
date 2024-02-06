@@ -1,0 +1,40 @@
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.menu ul a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.menu ul a:hover {
+  color: yellow;
+  cursor: pointer;
+  background-color: black;
+}
+
+.form {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  text-decoration: none;
+  margin-top: 5rem;
+}
+.form input {
+  background-color: bisque;
+}
+.form button {
+  background-color: plum;
+}/*# sourceMappingURL=05-mixin.css.map */
