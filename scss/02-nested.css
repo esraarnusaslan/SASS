@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   color: red;
   text-align: center;
@@ -15,4 +16,22 @@ h1 {
   display: inline-block;
   margin-right: 2rem;
   background-color: aqua;
+}
+
+.alert ul, .warning ul {
+  color: red;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.alert ul > li {
+  list-style-type: "😊";
+}
+.alert ul + p {
+  color: green;
+}
+.alert ul ~ a {
+  color: yellow;
+  text-decoration: none;
+  background-color: black;
 }/*# sourceMappingURL=02-nested.css.map */

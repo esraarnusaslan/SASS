@@ -19,3 +19,28 @@ h1{
         }
     }
 }
+
+.alert, .warning{
+    ul{
+        color: red;
+        font-style: italic;
+        font-size: 2rem;
+    }
+}
+
+.alert{
+    ul{
+        >li{
+    list-style-type:"😊" ;
+}
++p{
+    color: green;
+}
+~a{
+    color: yellow;
+    text-decoration: none;
+    background-color: black;
+}
+    }
+}
+
