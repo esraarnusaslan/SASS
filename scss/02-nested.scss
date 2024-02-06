@@ -44,3 +44,24 @@ h1{
     }
 }
 
+.divEl{
+    ul{
+        list-style-type: none;
+        li{
+            font-size: 2rem;
+            &:hover{
+                background-color: aqua;
+                color: black;
+                display: inline-block;
+                cursor: pointer;
+                &::after{
+                    content:"❤️" ;
+                }
+                &::before{
+                    content:"🔥"
+                }
+            }
+        }
+    }
+}
+

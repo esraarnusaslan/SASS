@@ -34,4 +34,23 @@ h1 {
   color: yellow;
   text-decoration: none;
   background-color: black;
+}
+
+.divEl ul {
+  list-style-type: none;
+}
+.divEl ul li {
+  font-size: 2rem;
+}
+.divEl ul li:hover {
+  background-color: aqua;
+  color: black;
+  display: inline-block;
+  cursor: pointer;
+}
+.divEl ul li:hover::after {
+  content: "❤️";
+}
+.divEl ul li:hover::before {
+  content: "🔥";
 }/*# sourceMappingURL=02-nested.css.map */
