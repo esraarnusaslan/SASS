@@ -1,0 +1,32 @@
+$color1:red;
+$color2:green;
+$color3:blue;
+$color4:yellow;
+$center:center;
+$border:50%;
+$padding-input:10px 20px;
+$cursor:pointer;
+
+input{
+    color: $color3;
+    background-color: $color4;
+    padding: $padding-input;
+    font-size: 1.3rem;
+}
+
+button{
+    background-color: $color2;
+    color: $color1;
+    padding: $padding-input;
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+    border-radius: $border;
+    cursor: $cursor;
+    font-size: 1.2rem;
+    text-align: center;
+
+    &:hover{
+        background-color: $color4;
+    }
+}
