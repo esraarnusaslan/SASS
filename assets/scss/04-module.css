@@ -1,0 +1,15 @@
+h1 {
+  color: orange;
+  background-color: aqua;
+  text-align: center;
+  font-family: "Helvetica Neue";
+}
+
+button {
+  background-color: red;
+  border: 3px dashed purple;
+}
+
+input {
+  background-color: orange;
+}/*# sourceMappingURL=04-module.css.map */

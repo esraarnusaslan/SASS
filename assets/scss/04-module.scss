@@ -1,0 +1,16 @@
+@use "module" as m;
+h1{
+    color:m.$color3;
+    background-color: m.$color2;
+    text-align: center;
+    font-family: m.$text;
+}
+
+button{
+    background-color: m.$color1;
+    border: m.$border;
+}
+
+input{
+    background-color: m.$color3;
+}
