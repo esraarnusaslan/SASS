@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu ul li {
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: 2rem;
+  background-color: aqua;
+}/*# sourceMappingURL=02-nested.css.map */
