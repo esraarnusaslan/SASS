@@ -62,4 +62,34 @@
 .color-green {
   background-color: green;
   color: green;
+}
+
+.btn-rabbit {
+  background-image: url("../image/rabbit.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.btn-water {
+  background-image: url("../image/water.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.btn-bird {
+  background-image: url("../image/bird.jpg");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
 }/*# sourceMappingURL=09-for.css.map */

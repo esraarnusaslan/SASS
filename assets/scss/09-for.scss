@@ -30,3 +30,18 @@ $colors:red,blue,green;
         color: $color;
     }
 }
+
+
+$variables:rabbit,water,bird;
+
+@each $variable in $variables{
+    .btn-#{$variable}{
+        background-image: url("../image/#{$variable}.jpg");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+}
