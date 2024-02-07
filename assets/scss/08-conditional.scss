@@ -1,0 +1,44 @@
+@mixin avatar($size,$round:false){
+width: $size;
+height: $size;
+
+@if $round==true{
+    border-radius: $size/2;
+    }
+}
+
+.avatar-container1{
+    background-color: rgb(188, 111, 18);
+    @include avatar(100px,true);
+    margin-bottom: 5px;
+}
+
+.avatar-container2{
+    background-color: aqua;
+    @include avatar(200px);//default is false
+}
+
+@mixin box($direction,$type,$color){
+
+    @if($direction==left){
+        border-left: 5px $type $color;
+    }@else if($direction==right){
+        border-right: 5px $type $color;
+    }@else if($direction==top){
+        border-top: 5px $type $color;
+    }@else if($direction==bottom){
+        border-bottom: 5px $type $color;
+    }@else if($direction==all){
+        border: 5px $type $color;
+    }@else{
+        @error "Invalid direction"
+    }
+}
+
+.box{
+    @include box(all,dashed,black);
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 0);
+    margin-top: 10px;
+}

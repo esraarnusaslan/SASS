@@ -1,0 +1,21 @@
+.avatar-container1 {
+  background-color: rgb(188, 111, 18);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.avatar-container2 {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}
+
+.box {
+  border: 5px dashed black;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 255, 0);
+  margin-top: 10px;
+}/*# sourceMappingURL=08-conditional.css.map */
