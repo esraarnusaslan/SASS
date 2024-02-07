@@ -1,0 +1,18 @@
+.btn-submit, .btn-view {
+  background-color: purple;
+  color: bisque;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn-submit:hover, .btn-view:hover {
+  background-color: orange;
+  color: hotpink;
+}
+
+.btn-view {
+  background-color: aqua;
+  color: red;
+  border: 3px red dotted;
+}/*# sourceMappingURL=07-inheritance.css.map */
