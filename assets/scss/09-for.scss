@@ -1,0 +1,32 @@
+//!for loop
+@for $i from 1 through  5{
+    .title#{$i*2}{
+        background-color: orange;
+        color: red;
+        font-size: 10*$i+px;
+    }
+}
+
+//!while loop
+
+$number:1;
+
+@while($number<=3){
+    .box#{$number+1}{
+        width:$number*100+px;
+        height: $number*50+px;
+        background-color: rgb(212, 255, 0);
+        margin-bottom: 10px;
+    }
+    $number:$number+1
+}
+
+//!Each Loop
+
+$colors:red,blue,green;
+@each $color in $colors{
+    .color#{-$color}{
+        background-color: $color;
+        color: $color;
+    }
+}
